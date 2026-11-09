@@ -7,12 +7,6 @@ parameters:
 			path: src/Http/Controllers/ServeStaticFileController.php
 
 		-
-			message: '#^Function mw_filesystem not found\.$#'
-			identifier: function.notFound
-			count: 1
-			path: src/Http/Controllers/ServeStaticFileController.php
-
-		-
 			message: '#^Function userfiles_path not found\.$#'
 			identifier: function.notFound
 			count: 1
@@ -23,12 +17,6 @@ parameters:
 			identifier: return.type
 			count: 2
 			path: src/Http/Controllers/ServeStaticFileController.php
-
-		-
-			message: '#^Function get_option not found\.$#'
-			identifier: function.notFound
-			count: 1
-			path: src/routes/web.php
 
 		-
 			message: '#^Function mw_admin_prefix_url not found\.$#'
